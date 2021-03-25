@@ -1,0 +1,160 @@
+.activepage {
+    border-radius: 0;
+    position: relative;
+}
+
+.activepage:after {
+    content: "";
+    height: 3px;
+    width: 30%;
+    background: blue;
+    position: absolute;
+    left: 21%;
+    bottom: 0%;
+}
+
+.banner {
+    display: grid;
+    place-items: center;
+    position: absolute;
+    border-radius: 20px;
+    min-height: 300px;
+    width: 98%;
+    margin: auto;
+    background-color: #f6b49a;
+}
+
+.cont {
+    position: relative;
+    margin-top: 200px;
+}
+.word {
+    font-size: 50px;
+    font-weight: bolder;
+}
+.men2img {
+    position: absolute;
+    height: 400px;
+    margin-top: -170px;
+}
+.men2back {
+    margin-top: -50px;
+    height: 300px;
+}
+.cross {
+    height: 30px;
+}
+.men2container {
+    margin-left: 100px;
+    margin-top: 10px;
+}
+.word1 {
+    position: absolute;
+    margin-top: -20px !important;
+}
+.word2 {
+    position: absolute;
+    margin-top: -40px !important;
+}
+.word3 {
+    position: absolute;
+    margin-top: -30px;
+    opacity: 0.5;
+}
+.name {
+    padding-bottom: 20px;
+    font-size: large;
+    opacity: 0.5;
+}
+.men3 {
+    border-radius: 20px;
+    height: 250px;
+    width: 200px;
+    background-color: #f6b49a;
+}
+.men1 {
+    border-radius: 20px;
+    height: 250px;
+    width: 200px;
+    background-color: #776ce2;
+}
+.rightbox {
+    color: white;
+    display: grid;
+    place-items: center;
+    position: absolute;
+    background-color: #776ce2;
+    height: 80px;
+    width: 80px;
+    border-radius: 10px;
+    z-index: 2;
+    right: 0;
+    top: 25%;
+}
+.footer {
+    background-color: #182b32;
+}
+@media only screen and (max-width: 500px) {
+    .men2container {
+        margin-left: 44px;
+        margin-top: 120px;
+    }
+    .word {
+        position: absolute;
+        margin-left: 70px;
+        font-size: 30px !important;
+        margin-top: -180px !important;
+    }
+    .banner {
+        min-height: 550px;
+        width: 95% !important;
+    }
+    .circle {
+        margin-top: -200px;
+        margin-left: 220px;
+        height: 30px !important;
+    }
+    .cross {
+        margin-left: 210px;
+        margin-top: 510px !important;
+        height: 15px;
+    }
+    .word1 {
+        position: absolute;
+        margin-top: -5px !important;
+    }
+    .word2 {
+        position: absolute;
+        margin-top: 40px !important;
+    }
+    .word3 {
+        position: absolute;
+        margin-left: 40px;
+        margin-top: 370px !important;
+        opacity: 0.5;
+    }
+}
+@media only screen and (max-width: 770px) {
+    .banner {
+        width: 90%;
+    }
+    /* .men2container {
+        margin-left: -10px;
+    } */
+    /* .word {
+        font-size: 30px !important;
+    }
+    .word1{
+
+        margin-top: -10px !important;
+    }
+    .word2{
+
+        margin-top: -20px !important;
+    }
+    
+    .word3{
+
+        margin-top: -10px !important;
+    } */
+}
